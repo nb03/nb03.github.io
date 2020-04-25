@@ -10,7 +10,7 @@ body {
 }
 #loading {
     width: 100vw;
-    height: 100vh;
+    height: 25vh;
     position: fixed;
     background: white;
     z-index: 999;
@@ -32,14 +32,13 @@ body {
     0% {transform: rotate(0deg);}
     100% {transform: rotate(360deg);}
 }
-header {
-    width:50vw;
+header {  /* of the header options */
+    width:92vw;
     padding:6vh 4vw;
     position:fixed;
     font-weight:bold;
     background:transparent;
-    /* colour of the header options */
-    color:#f5f;
+    color:#fff;
     transition:0.4s ease-in-out;
     z-index:2;
 }
