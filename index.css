@@ -43,7 +43,7 @@ header {  /* of the header options */
     z-index:2;
 }
 header table {
-    width:100%;
+    width:100%; 
 }
 #logo {
     width:20%;
