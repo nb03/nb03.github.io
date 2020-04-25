@@ -8,7 +8,7 @@ body {
     overflow-x:hidden;
     scroll-behavior: smooth;
 }
-#loading {
+#loading { /* loading page */
     width: 100vw;
     height: 100vh;
     position: fixed;
@@ -19,7 +19,7 @@ body {
     flex-direction: column;
     align-items: center;
 }
-#spinner {
+#spinner { /* loading page spinner */
     animation: rotate 0.56s infinite linear;
     width:50px;
     height:50px;
@@ -32,7 +32,7 @@ body {
     0% {transform: rotate(0deg);}
     100% {transform: rotate(360deg);}
 }
-header {  /* of the header options */
+header {  /* the options in the header */
     width:92vw;
     padding:6vh 4vw;
     position:fixed;
@@ -42,16 +42,16 @@ header {  /* of the header options */
     transition:0.4s ease-in-out;
     z-index:2;
 }
-header table {
+header table { /* position of header options (left/right) */
     width:100%; 
 }
-#logo {
+#logo { /* prevents header options from stacking on the right */ 
     width:20%;
 }
-#navigation {
+#navigation { /*idk what this does */
     width:80%;
 }
-#magnify {
+#magnify { /* idk what this does */
     width:100vw;
     height:100vh;
     background:rgba(0, 0, 0, 0.92);
@@ -65,7 +65,7 @@ header table {
     position:absolute;
     top:0;
     right:0;
-    margin:20px 40px;
+    margin:100px 100px;
     color:#fff;
     transition:0.4s ease-in-out;
 }
