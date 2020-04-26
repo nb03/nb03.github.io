@@ -61,33 +61,33 @@ header table { /* position of header options (left/right) */
     flex-direction: column;
     justify-content:center;
 }
-#magnify h1 {
+#magnify h1 { /* idk what this does */ 
     position:absolute;
     top:0;
     right:0;
-    margin:100px 100px;
+    margin:20px 40px;
     color:#fff;
     transition:0.4s ease-in-out;
 }
 #magnify h1:hover{
-    color:rgb(255, 44, 90);
+    color:rgb(20, 255, 216); /* I changed this to green but can't find it anywhere */
     cursor:pointer;
 }
-#img_here {
-    width:90%;
-    height:90%;
+#img_here {     /*this was 90/90 - I changed and don't see what happened*/ 
+    width:25%;
+    height:25%;
     background-size:contain !important;
     background-repeat:no-repeat !important;
     margin:0px auto;
 }
-#logo {
+#logo { /* logo = "yourname"  font size and colour*/
     font-size:24px;
     color:rgb(255, 44, 90);
 }
-#navigation {
+#navigation { /* alignment of the header options */
     text-align:right;
 }
-#navigation a {
+#navigation a { /* idk what this is */
     color:inherit;
     text-decoration:none;
     padding:5px 10px;
@@ -95,18 +95,19 @@ header table { /* position of header options (left/right) */
     margin-left:4vw;
     transition:0.4s ease-in-out;
 }
-#navigation a:hover{
+#navigation a:hover{ /* underlines underneath header options */
     border-bottom:2px solid #fff;
 }
-#top_part {
+#top_part { /* main page border (edges) */
     width:100%;
     border:2vh solid #fff;
 }
-#top_part tr td{
-    width:50%;
+#top_part tr td{ /* width of main page bw picture and tagline */
+    width:50%; 
 }
+
 #about {
-    width:84% !important;
+    width:84% !important; 
     height:95vh;
     display:flex;
     flex-direction:column;
@@ -126,7 +127,7 @@ header table { /* position of header options (left/right) */
     width:20% !important;
     text-align:left;
 }
-.social {
+.social { /* social icons at bottom */
     color:rgb(255, 44, 90);
     font-size:23px;
     padding:12px 17px;
@@ -168,6 +169,17 @@ header table { /* position of header options (left/right) */
     background-size:cover;
     background-repeat:no-repeat;
 }
+
+#bio {      /* "about" title */
+    width:92vw;
+    padding:6vh 4vw;
+    font-weight:bold;
+}
+#bio h1 {   /*"about" underline*/
+    padding:5px 0px;
+    border-bottom:4px solid rgb(255, 44, 90);
+    width:8%;
+}
 #work {
     width:92vw;
     padding:6vh 4vw;
@@ -195,16 +207,10 @@ header table { /* position of header options (left/right) */
     transform: scale(1.1);
     cursor: pointer;
 }
-#bio {
-    width:92vw;
-    padding:6vh 4vw;
-    font-weight:bold;
-}
-#bio h1 {
-    padding:5px 0px;
-    border-bottom:4px solid rgb(255, 44, 90);
-    width:8%;
-}
+
+
+
+
 #contact {
     width:92vw;
     padding:6vh 4vw;
