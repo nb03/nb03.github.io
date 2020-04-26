@@ -74,8 +74,8 @@ header table { /* position of header options (left/right) */
     cursor:pointer;
 }
 #img_here {     /*this was 90/90 - I changed and don't see what happened*/ 
-    width:25%;
-    height:25%;
+    width:90%;
+    height:90%;
     background-size:contain !important;
     background-repeat:no-repeat !important;
     margin:0px auto;
@@ -105,10 +105,6 @@ header table { /* position of header options (left/right) */
 #top_part tr td{ /* width of main page bw picture and tagline */
     width:50%; 
 }
-#top_part h2{       /*under my name */
-    width: 50%;
-    font-size:500px;
-}
 
 #about {
     width:84% !important; 
@@ -120,8 +116,9 @@ header table { /* position of header options (left/right) */
     padding:0px 8%;
 }
 #about h1 {
-    font-size:45px;
+    font-size:45px; 
     word-wrap:break-word;
+    
 }
 #about table {
     width:70%;
@@ -183,6 +180,7 @@ header table { /* position of header options (left/right) */
     padding:5px 0px;
     border-bottom:4px solid rgb(255, 44, 90);
     width:8%;
+
 }
 #work {
     width:92vw;
