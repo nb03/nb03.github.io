@@ -170,6 +170,13 @@ header table { /* position of header options (left/right) */
     background-size:cover;
     background-repeat:no-repeat;
 }
+#middle_part { /* main page border (edges) */
+    width:100%;
+    border:2vh solid #fff;
+}
+#middle_part tr td{ /* width of main page bw picture and tagline */
+    width:50%; 
+}
 
 #bio {      /* "about" title */
     width:92vw;
@@ -189,23 +196,8 @@ header table { /* position of header options (left/right) */
     background-size:cover;
     background-repeat:no-repeat;
 }
-#leftImage {
-    display: none; 
-}
-#middle_part { /* main page border (edges) */
-    width:100%;
-    border:2vh solid #fff;
-}
-#middle_part tr td{ /* width of main page bw picture and tagline */
-    width:50%; 
-}
-#middle_part {
-    border:0px;
-}
-#middle_part tr td{
-    width:100%;
-    text-align:center;
-}
+
+
 
 #work {
     width:92vw;
@@ -351,6 +343,9 @@ button:focus {
     #rightImage {
         display:none;
     }
+    #leftImage {
+        display: none; 
+    }
     #top_part {
         border:0px;
     }
@@ -370,6 +365,13 @@ button:focus {
         margin-top:6vh;
     }
     #about table tr td { /*main page icons*/
+        text-align:center;
+    }
+    #middle_part {
+        border:0px;
+    }
+    #middle_part tr td{
+        width:100%;
         text-align:center;
     }
     #bio {
