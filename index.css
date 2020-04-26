@@ -163,7 +163,7 @@ header table { /* position of header options (left/right) */
     color:#fff;
     background:rgb(255, 44, 90);
 }
-#rightImage {
+#rightImage {   /*add my picture in here */
     width:100%;
     height:95vh;
     background:linear-gradient(0deg,rgba(255, 44, 90, 0.8),rgba(2255, 44, 90, 0.8)),url("https://images.unsplash.com/photo-1506057527569-6a0285b2fcc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=60") center center;
@@ -182,6 +182,31 @@ header table { /* position of header options (left/right) */
     width:8%;
 
 }
+#leftImage {
+    width:100%;
+    height:95vh;
+    background:linear-gradient(0deg,rgba(255, 44, 90, 0.8),rgba(2255, 44, 90, 0.8)),url("https://images.unsplash.com/photo-1506057527569-6a0285b2fcc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=60") center center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+#leftImage {
+    display: none; 
+}
+#middle_part { /* main page border (edges) */
+    width:100%;
+    border:2vh solid #fff;
+}
+#middle_part tr td{ /* width of main page bw picture and tagline */
+    width:50%; 
+}
+#middle_part {
+    border:0px;
+}
+#middle_part tr td{
+    width:100%;
+    text-align:center;
+}
+
 #work {
     width:92vw;
     padding:6vh 4vw;
@@ -340,12 +365,19 @@ button:focus {
         text-align:center;
         padding:0px 4%;
     }
-    #about table {
-        width:100%;
+    #about table { /*main page icons*/
+        width:100%; 
         margin-top:6vh;
     }
-    #about table tr td {
+    #about table tr td { /*main page icons*/
         text-align:center;
+    }
+    #bio {
+        width:92% !important;
+        height:75vh;
+        padding-top:20vh !important;
+        text-align:center;
+        padding: 0px 4%
     }
     .btn_one {
     padding:6px 30px;
@@ -381,13 +413,13 @@ button:focus {
     #contact h1 {
         width:33%;
     }
-    header {
+    header {    /*top header adjustion*/
         width:96vw;
         background:#fff;
-        padding:4vh 2vw;
+        padding:1vh 2vw;
         position:absolute;
     }
-    #header table tr td {
+    #header table tr td { /*top header position*/
         width:100%;
         display:block;
         text-align:center;
