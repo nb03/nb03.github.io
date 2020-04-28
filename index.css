@@ -118,6 +118,7 @@ header table { /* position of header options (left/right) */
 #about h1 {
     font-size:45px; 
     word-wrap:break-word;
+    
 }
 #about h2{
     font-size:20px;
