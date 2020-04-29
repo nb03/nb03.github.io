@@ -251,7 +251,16 @@ header table { /* position of header options (left/right) */
     cursor: pointer;
 }
 
-
+#projects {
+    width:92vw; /*this will change the width of the pictures*/
+    padding:12vh 4vw;
+    font-weight:bold;
+}
+#projects h1 {
+    padding:5px 0px;
+    border-bottom:4px solid rgb(255, 44, 90);
+    width:6%;
+}
 
 
 #contact {
@@ -444,6 +453,9 @@ button:focus {
     }
     #work h1 {
         width:19%;
+    }
+    #projects h1 {
+        width:35%;
     }
     #bio h1 {
         width:20%;
