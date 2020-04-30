@@ -377,7 +377,7 @@ button:focus {
 .gallery{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(40, 40vw);
+    grid-template-rows: repeat(3, 40vw); /*this has to do with if the body of the position gets cut off */
     grid-gap: 15px;
 }
 .gallery h2{
