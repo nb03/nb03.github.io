@@ -244,16 +244,16 @@ header table { /* position of header options (left/right) */
 }
 
 #photos {
-    width:100%;
+    width:75%;
     columns:1;
-    column-gap:4%;
+    column-gap:0%;
     z-index:1;
     transition:0.4s ease-in-out;
 }
 #photos img {
     width:50%;
     height:auto;
-    margin:4.5% 50px;
+    margin:5% 200px; /*changing px will move pic closer to words*/
     transition:0.4s ease-in-out;
 }
 #photos img:hover {
