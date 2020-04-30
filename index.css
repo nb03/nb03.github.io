@@ -222,7 +222,6 @@ header table { /* position of header options (left/right) */
     background-repeat:no-repeat;
 }
 
-
 #work {
     width:92vw; /*this will change the width of the pictures*/
     padding:12vh 4vw;
@@ -233,17 +232,28 @@ header table { /* position of header options (left/right) */
     border-bottom:4px solid rgb(255, 44, 90);
     width:6%;
 }
+#work2{
+    width:92vw;
+    padding:12vh 4vw;
+    font-weight:bold;
+}
+#work2 h1{
+    padding: 5px 0px;
+    border-bottom: 4px solid rgb(255, 44, 90);
+    width:6%;
+}
+
 #photos {
     width:100%;
-    columns:3;
+    columns:1;
     column-gap:4%;
     z-index:1;
     transition:0.4s ease-in-out;
 }
 #photos img {
-    width:100%;
+    width:50%;
     height:auto;
-    margin:4.5% 0px;
+    margin:4.5% 50px;
     transition:0.4s ease-in-out;
 }
 #photos img:hover {
@@ -360,6 +370,57 @@ button:focus {
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(0, 0, 0,0.8); 
 }
+.container{
+    width: 60%;
+    margin: 2rem auto;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(40, 40vw);
+    grid-gap: 15px;
+}
+.gallery__img{
+    widows: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.gallery__item--1{
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:1;
+    grid-row-end: 2;
+}
+.gallery__item--2{
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:1;
+    grid-row-end: 2;
+}
+.gallery__item--3{
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:2;
+    grid-row-end:3;
+}
+.gallery__item--4{
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:2;
+    grid-row-end:3;
+}
+.gallery__item--5{
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:3;
+    grid-row-end:4;
+}
+.gallery__item--6{
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:3;
+    grid-row-end:4;
+}
 
 @media (max-width: 1000px){
     #photos {
@@ -414,6 +475,7 @@ button:focus {
         text-align:left;
         padding: 0px 4%
     }
+    
     .btn_one {
     padding:6px 30px;
     width:60%;
@@ -454,12 +516,17 @@ button:focus {
     #work h1 {
         width:19%;
     }
+    #work2 h1{
+        width:19%;
+    }
+    
     #projects h1 {
         width:35%;
     }
     #bio h1 {
         width:20%;
     }
+   
     #contact h1 {
         width:33%;
     }
