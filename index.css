@@ -116,7 +116,7 @@ header table { /* position of header options (left/right) */
     padding:0px 8%;
 }
 #about h1 {
-    font-size:45px; 
+    font-size:35px; 
     word-wrap:break-word;
    
 }
@@ -218,6 +218,7 @@ header table { /* position of header options (left/right) */
     background:url("me1.png") center center;
     background-size:cover;
     background-repeat:no-repeat;
+   
 }
 
 #work2{
@@ -457,7 +458,8 @@ button:focus {
         display:none;
     }
     #leftImage {
-        display: none; 
+        display: none;
+        
     }
     #top_part {
         border:0px;
