@@ -194,6 +194,7 @@ header table { /* position of header options (left/right) */
     border-bottom:4px solid rgb(255, 44, 90);
     width:10%;
 }
+
 .btn_two {
     font-size:18px;
     font-family: 'Poppins', sans-serif;
