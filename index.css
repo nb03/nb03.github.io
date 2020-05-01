@@ -368,7 +368,7 @@ button:focus {
 .gallery{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 35vw); /*this has to do with if the body of the position gets cut off */
+    grid-template-rows: repeat(4, 45vw); /*this has to do with if the body of the position gets cut off */
     grid-gap: 15px;
 }
 .gallery h2{
@@ -378,6 +378,10 @@ button:focus {
 .gallery h3{
     font-size:18px;
     color:rgb(54, 52, 53);
+    
+}
+.gallery p{
+    font-size:15px;
     
 }
 .gallery__img{
@@ -447,6 +451,10 @@ button:focus {
         transform: scale(1);
         cursor: pointer;
     }
+    /*#work2 gallery__item--2:hover{
+        transform: scale(1);
+        cursor: pointer;
+    }*/
     #rightImage {
         display:none;
     }
