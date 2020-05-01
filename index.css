@@ -212,6 +212,66 @@ header table { /* position of header options (left/right) */
     color:#fff;
     background:rgb(255, 44, 90);
 }
+.gallery__item--2 {
+    background:#fff;
+    border:3px solid rgb(255, 44, 90);
+    padding:8px 40px;
+    width:35%;
+    border-radius:80px;
+    margin:2vh 0px;
+    transition:0.4s ease-in-out;
+}
+.gallery__item--2:hover {
+    box-shadow:0px 10px 30px rgba(255, 44, 90, 0.8);
+    cursor:pointer;
+    color:#fff;
+    background:rgb(255, 44, 90);
+}
+.gallery__item--4 {
+    background:#fff;
+    border:3px solid rgb(255, 44, 90);
+    padding:8px 40px;
+    width:35%;
+    border-radius:80px;
+    margin:2vh 0px;
+    transition:0.4s ease-in-out;
+}
+.gallery__item--4:hover {
+    box-shadow:0px 10px 30px rgba(255, 44, 90, 0.8);
+    cursor:pointer;
+    color:#fff;
+    background:rgb(255, 44, 90);
+}
+.gallery__item--6 {
+    background:#fff;
+    border:3px solid rgb(255, 44, 90);
+    padding:8px 40px;
+    width:35%;
+    border-radius:80px;
+    margin:2vh 0px;
+    transition:0.4s ease-in-out;
+}
+.gallery__item--6:hover {
+    box-shadow:0px 10px 30px rgba(255, 44, 90, 0.8);
+    cursor:pointer;
+    color:#fff;
+    background:rgb(255, 44, 90);
+}
+.gallery__item--8 {
+    background:#fff;
+    border:3px solid rgb(255, 44, 90);
+    padding:8px 40px;
+    width:35%;
+    border-radius:80px;
+    margin:2vh 0px;
+    transition:0.4s ease-in-out;
+}
+.gallery__item--8:hover {
+    box-shadow:0px 10px 30px rgba(255, 44, 90, 0.8);
+    cursor:pointer;
+    color:#fff;
+    background:rgb(255, 44, 90);
+}
 #leftImage {
     width:100%;
     height:95vh;
@@ -517,7 +577,56 @@ button:focus {
         background:rgb(255, 44, 90);
         color:#fff;
         }
+    
     .btn_two:hover {
+        box-shadow:0px 10px 40px rgba(255, 44, 90, 0.8);
+        cursor:pointer;
+    }
+    .gallery__item--2 {
+        padding:6px 30px;
+        width:60%;
+        margin:4vh auto;
+        box-shadow:0px 10px 20px rgba(255, 44, 90, 0.8);
+        background:rgb(255, 44, 90);
+        color:#fff;
+        }
+    .gallery__item--2:hover {
+        box-shadow:0px 10px 40px rgba(255, 44, 90, 0.8);
+        cursor:pointer;
+    }
+    .gallery__item--4 {
+        padding:6px 30px;
+        width:60%;
+        margin:4vh auto;
+        box-shadow:0px 10px 20px rgba(255, 44, 90, 0.8);
+        background:rgb(255, 44, 90);
+        color:#fff;
+        }
+    .gallery__item--4:hover {
+        box-shadow:0px 10px 40px rgba(255, 44, 90, 0.8);
+        cursor:pointer;
+    }
+    .gallery__item--6 {
+        padding:6px 30px;
+        width:60%;
+        margin:4vh auto;
+        box-shadow:0px 10px 20px rgba(255, 44, 90, 0.8);
+        background:rgb(255, 44, 90);
+        color:#fff;
+        }
+    .gallery__item--6:hover {
+        box-shadow:0px 10px 40px rgba(255, 44, 90, 0.8);
+        cursor:pointer;
+    }
+    .gallery__item--8 {
+        padding:6px 30px;
+        width:60%;
+        margin:4vh auto;
+        box-shadow:0px 10px 20px rgba(255, 44, 90, 0.8);
+        background:rgb(255, 44, 90);
+        color:#fff;
+        }
+    .gallery__item--8:hover {
         box-shadow:0px 10px 40px rgba(255, 44, 90, 0.8);
         cursor:pointer;
     }
