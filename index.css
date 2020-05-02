@@ -130,7 +130,7 @@ header table { /* position of header options (left/right) */
     margin-top:4vh;
 }
 #about table tr td {
-    width:20% !important;
+    width:0% !important;
     text-align:left;
 }
 .social { /* social icons at bottom */
