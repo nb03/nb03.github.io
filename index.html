@@ -173,12 +173,31 @@
                         </div>
                     </td>
                     <td>
-                        <form>
+                        <form method="GET" action="mailto:n6butt@uwaterloo.ca" enctype="text/plain">
                             <input type="text" placeholder="name" required>
                             <input type="email" placeholder="email" required><br>
-                            <textarea placeholder="your message" required rows="5"></textarea><br>
-                            <button class="btn_one">send</button>
+                            <textarea placeholder="your message" required rows="4"></textarea><br>
+                            <button type="submit" value="Send" class="btn_one">send</button>
                         </form> 
+                        <script>
+                            var form = document.getElementsByTagName('form')[0];
+                            form.addEventListener('submit', contact, false);
+                            function contact(e){
+                                e.preventDefault(); 
+                                var target = e.target || e.srcElement;
+                                var i = 0;
+                                var message = '';
+
+                                for(i=0; i < target.length; ++i){
+                                    if(target[i].type != 'text' && target[i].type != 'textarea'){
+                                        continue;
+                                    }
+                                    message += target[i].name + ': ' + target[i].value + "\r\n";
+                                }
+                                target.elements["body"].value = message;
+                                this.submit();
+                            }
+                        </script>
                     </td>
                 </tr>
             </table>
