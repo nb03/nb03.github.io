@@ -141,7 +141,7 @@ header table { /* position of header options (left/right) */
     background:transparent;
     transition:0.4s ease-in-out;
     font-weight:bold;
-    margin:0px -10px;
+    margin:0px 10px;
 }
 .social:hover { 
     cursor: pointer;
@@ -156,7 +156,7 @@ header table { /* position of header options (left/right) */
     background:#fff;
     border:3px solid rgb(255, 44, 90);
     padding:8px 40px;
-    width:35%;
+    width:45%;
     border-radius:80px;
     font-weight:bold;
     margin:2vh 0px;
@@ -193,7 +193,7 @@ header table { /* position of header options (left/right) */
 #bio h1 {   /*"about" underline*/
     padding:5px 0px;
     border-bottom:4px solid rgb(255, 44, 90);
-    width:10%;
+    width:50%;
 }
 
 .btn_two {
@@ -228,7 +228,7 @@ header table { /* position of header options (left/right) */
 .gallery__item--2:hover {
     box-shadow:0px 10px 30px rgba(255, 44, 90, 0.8);
     cursor:pointer;
-    color:#fff;
+    font:#fff;
     background:rgb(255, 44, 90);
 }
 .gallery__item--4 {
@@ -308,7 +308,7 @@ header table { /* position of header options (left/right) */
 #work2 h1{
     padding: 5px 0px;
     border-bottom: 4px solid rgb(255, 44, 90);
-    width:6%;
+    width:37%;
 }
 
 #photos {
@@ -338,7 +338,7 @@ header table { /* position of header options (left/right) */
 #projects h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(255, 44, 90);
-    width:6%;
+    width:26%;
 }
 
 
@@ -349,7 +349,7 @@ header table { /* position of header options (left/right) */
 #contact h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(255, 44, 90);
-    width:10%;
+    width:17%;
 }
 #contact table {
     width:100%;
@@ -359,10 +359,12 @@ header table { /* position of header options (left/right) */
 }
 #inner_div table{
     width:100%;
+    margin-top: -28vh
 }
 #inner_div table tr td{
     font-weight:bold;
 }
+    
 #inner_table tr td{
     padding:10px 20px !important;
 }
@@ -451,11 +453,11 @@ button:focus {
 }
 .gallery h2{
     font-size:20px;
-    color:rgb(255, 44, 90);
+    color:rgb(54, 52, 53);
 }
 .gallery h3{
     font-size:18px;
-    color:rgb(54, 52, 53);
+    color:rgb(255, 255, 255);
     
 }
 .gallery p{
@@ -664,6 +666,7 @@ button:focus {
     }
     #inner_table tr td{
         padding:10px 0px !important;
+       
     }
     #contact form input {
         width:90%;
