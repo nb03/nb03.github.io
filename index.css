@@ -216,31 +216,16 @@ header table { /* position of header options (left/right) */
     color:#fff;
     background:rgb(255, 44, 90);
 }
-.grid__item--2 {
+.grid__item--5 {
     background:#fff;
     border:3px solid rgb(255, 44, 90);
     padding:5px 40px;
-    width:35%;
+    width:25%;
     border-radius:80px;
     margin:5vh 0px; /*making vh larger will make the text box shorter*/
     transition:0.4s ease-in-out;
 }
-.grid__item--2:hover {
-    box-shadow:0px 10px 30px rgba(255, 44, 90, 0.8);
-    cursor:pointer;
-    font:#fff;
-    background:rgb(255, 44, 90);
-}
-.grid__item--4 {
-    background:#fff;
-    border:3px solid rgb(255, 44, 90);
-    padding:5px 40px;
-    width:35%;
-    border-radius:80px;
-    margin:5vh 0px; /*making vh larger will make the text box shorter*/
-    transition:0.4s ease-in-out;
-}
-.grid__item--4:hover {
+.grid__item--5:hover {
     box-shadow:0px 10px 30px rgba(255, 44, 90, 0.8);
     cursor:pointer;
     font:#fff;
@@ -250,7 +235,7 @@ header table { /* position of header options (left/right) */
     background:#fff;
     border:3px solid rgb(255, 44, 90);
     padding:5px 40px;
-    width:35%;
+    width:25%;
     border-radius:80px;
     margin:5vh 0px; /*making vh larger will make the text box shorter*/
     transition:0.4s ease-in-out;
@@ -261,11 +246,26 @@ header table { /* position of header options (left/right) */
     font:#fff;
     background:rgb(255, 44, 90);
 }
+.grid__item--7 {
+    background:#fff;
+    border:3px solid rgb(255, 44, 90);
+    padding:5px 40px;
+    width:25%;
+    border-radius:80px;
+    margin:5vh 0px; /*making vh larger will make the text box shorter*/
+    transition:0.4s ease-in-out;
+}
+.grid__item--7:hover {
+    box-shadow:0px 10px 30px rgba(255, 44, 90, 0.8);
+    cursor:pointer;
+    font:#fff;
+    background:rgb(255, 44, 90);
+}
 .grid__item--8 {
     background:#fff;
     border:3px solid rgb(255, 44, 90);
     padding:5px 40px;
-    width:35%;
+    width:25%;
     border-radius:80px;
     margin:5vh 0px; /*making vh larger will make the text box shorter*/
     transition:0.4s ease-in-out;
@@ -357,7 +357,6 @@ header table { /* position of header options (left/right) */
     background:url("me6.jpg") center center;
     background-size:cover;
     background-repeat:no-repeat;
-   
 }
 
 #work2{
@@ -513,7 +512,7 @@ button:focus {
 .grid{
     display: grid; 
     grid-template-columns: repeate(4, 1fr);
-    grid-template-rows: repeat(2, 45vh);
+    grid-template-rows: repeat(3, 45vh);
     grid-gap: 0px;
 }
 .grid p{
@@ -553,25 +552,25 @@ button:focus {
     grid-column-start:1;
     grid-column-end:2;
     grid-row-start:2;
-    grid-row-end:3;
+    grid-row-end:4;
 }
 .grid__item--6{
     grid-column-start:2;
     grid-column-end:3;
     grid-row-start:2;
-    grid-row-end:3;
+    grid-row-end:4;
 }
 .grid__item--7{
     grid-column-start:3;
     grid-column-end:4;
     grid-row-start:2;
-    grid-row-end:3;
+    grid-row-end:4;
 }
 .grid__item--8{
     grid-column-start:4;
     grid-column-end:5;
     grid-row-start:2;
-    grid-row-end:3;
+    grid-row-end:4;
 }
 .gallery{
     display: grid;
@@ -740,33 +739,21 @@ button:focus {
         box-shadow:0px 10px 40px rgba(255, 44, 90, 0.8);
         cursor:pointer;
     }
-    .grid__item--2{
+    .grid__item--5{
         padding:6px 30px;
-        width:60%;
+        width:25%;
         margin:4vh auto;
         box-shadow:0px 10px 20px rgba(255, 44, 90, 0.8);
         background:rgb(255, 44, 90);
         color:#fff;
     }
-    .grid__item--2:hover {
-        box-shadow:0px 10px 40px rgba(255, 44, 90, 0.8);
-        cursor:pointer;
-    }
-    .grid__item--4{
-        padding:6px 30px;
-        width:60%;
-        margin:4vh auto;
-        box-shadow:0px 10px 20px rgba(255, 44, 90, 0.8);
-        background:rgb(255, 44, 90);
-        color:#fff;
-    }
-    .grid__item--4:hover {
+    .grid__item--5:hover {
         box-shadow:0px 10px 40px rgba(255, 44, 90, 0.8);
         cursor:pointer;
     }
     .grid__item--6{
         padding:6px 30px;
-        width:60%;
+        width:25%;
         margin:4vh auto;
         box-shadow:0px 10px 20px rgba(255, 44, 90, 0.8);
         background:rgb(255, 44, 90);
@@ -776,9 +763,21 @@ button:focus {
         box-shadow:0px 10px 40px rgba(255, 44, 90, 0.8);
         cursor:pointer;
     }
+    .grid__item--7{
+        padding:6px 30px;
+        width:25%;
+        margin:4vh auto;
+        box-shadow:0px 10px 20px rgba(255, 44, 90, 0.8);
+        background:rgb(255, 44, 90);
+        color:#fff;
+    }
+    .grid__item--7:hover {
+        box-shadow:0px 10px 40px rgba(255, 44, 90, 0.8);
+        cursor:pointer;
+    }
     .grid__item--8{
         padding:6px 30px;
-        width:60%;
+        width:25%;
         margin:4vh auto;
         box-shadow:0px 10px 20px rgba(255, 44, 90, 0.8);
         background:rgb(255, 44, 90);
