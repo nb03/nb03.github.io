@@ -136,12 +136,32 @@
 
     <div id="projects">
         <h1>impactful projects</h1>
-        <div id="photos">
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547149666-769b42053e67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80">    
-            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547950515-e652d0f50b1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80">
-        </div>
+    </div>
+    <div class="grid">
+        <figure id="photos" class="grid__item grid__item--1">
+            <img src="resumate.jpg" class="grid__img" alt="Image 20">
+        </figure>
+        <figure id="photos" class="grid__item grid__item--2">
+            <h1>Product Manager</h1>
+            <p>Resume-ranking add on for HCM systems.</p>
+        </figure>
+        <figure id="photos" class="grid__item grid__item--3">
+            <img src="UWBlueprintlogo.jpg" class="grid__img" alt="Image 21">
+        </figure>
+        <figure id="photos" class="grid__item grid__item--4">
+            <h1>VP Sponsorship & Events</h1>
+            <p>Planned & executed Women in Tech Panel, Design & PM Interview Prep</p>
+        </figure>
+        <figure id="photos" class="grid__item grid__item--5">
+            <img src="gupshupvids.jpg" class="grid__img" alt="Image 22">
+        </figure>
+        <figure id="photos" class="grid__item grid__item--6">
+            <img src=
+        </figure>
     </div>
     
+
+
     <div id="contact">
         <h1>get in touch</h1>
             <table>
@@ -173,31 +193,12 @@
                         </div>
                     </td>
                     <td>
-                        <form method="GET" action="mailto:n6butt@uwaterloo.ca" enctype="text/plain">
-                            <input type="text" placeholder="name" required>
-                            <input type="email" placeholder="email" required><br>
-                            <textarea placeholder="your message" required rows="4"></textarea><br>
-                            <button type="submit" value="Send" class="btn_one">send</button>
+                        <form action="https://formspree.io/mlepebeb" method="POST">
+                            <input type="text" name="name" placeholder="name"required>
+                            <input type="email" name="email" placeholder="your email" required><br>
+                            <textarea name="message" placeholder="your message" required rows="4"></textarea><br>
+                            <button type="submit" class="btn_one">send</button>
                         </form> 
-                        <script>
-                            var form = document.getElementsByTagName('form')[0];
-                            form.addEventListener('submit', contact, false);
-                            function contact(e){
-                                e.preventDefault(); 
-                                var target = e.target || e.srcElement;
-                                var i = 0;
-                                var message = '';
-
-                                for(i=0; i < target.length; ++i){
-                                    if(target[i].type != 'text' && target[i].type != 'textarea'){
-                                        continue;
-                                    }
-                                    message += target[i].name + ': ' + target[i].value + "\r\n";
-                                }
-                                target.elements["body"].value = message;
-                                this.submit();
-                            }
-                        </script>
                     </td>
                 </tr>
             </table>
