@@ -382,7 +382,6 @@ header table { /* position of header options (left/right) */
 }
 .gallery__item--4 {
     background:#fff;
-    border:3px solid rgb(255, 44, 90);
     padding:8px 40px;
     width:35%;
     border-radius:80px;
@@ -397,7 +396,6 @@ header table { /* position of header options (left/right) */
 }
 .gallery__item--6 {
     background:#fff;
-    border:3px solid rgb(255, 44, 90);
     padding:8px 40px;
     width:35%;
     border-radius:80px;
@@ -412,7 +410,6 @@ header table { /* position of header options (left/right) */
 }
 .gallery__item--8 {
     background:#fff;
-    border:3px solid rgb(255, 44, 90);
     padding:8px 40px;
     width:35%;
     border-radius:80px;
@@ -427,7 +424,6 @@ header table { /* position of header options (left/right) */
 }
 .gallery__item--10 {
     background:#fff;
-    border:3px solid rgb(255, 44, 90);
     padding:8px 40px;
     width:35%;
     border-radius:80px;
@@ -452,7 +448,7 @@ header table { /* position of header options (left/right) */
     width:92vw;
     padding:12vh 4vw;
     font-weight:bold;
-    background: rgb(255, 245, 248)
+    background: rgb(255, 249, 251)
 }
 #work2 h1{
     padding: 5px 0px;
@@ -669,7 +665,7 @@ button:focus {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 45vw); /*this has to do with if the body of the position gets cut off */
     grid-gap: 0px;
-    background: rgb(255, 245, 248)
+    background: rgb(255, 249, 251)
 }
 .gallery h2{
     font-size:20px;
