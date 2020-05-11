@@ -565,7 +565,9 @@ header table { /* position of header options (left/right) */
     padding:10vh 0px;
     text-align:center;
     font-weight:bold;
-    color: rgb(255, 44, 90)
+    color: rgb(255, 44, 90);
+    background: rgb(255, 249, 251);
+
 }
 #footer a {
     color:rgb(255, 44, 90);
