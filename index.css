@@ -218,7 +218,7 @@ header table { /* position of header options (left/right) */
 }
 .parent {
     display: grid;
-    grid-template-columns: repeat2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 8px;
@@ -470,11 +470,32 @@ header table { /* position of header options (left/right) */
     height:auto;
     margin:0% 225px; /*changing px will move pic closer to words*/
     transition:0.4s ease-in-out;
+    
 }
 #photos img:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
+#photos2 {
+    width:150%;
+    columns:1;
+    column-gap:0%;
+    z-index:1;
+    transition:0.4s ease-in-out;
+    
+}
+#photos2 img {
+    width:50%;
+    height:auto;
+    margin:0% 225px; /*changing px will move pic closer to words*/
+    transition:0.4s ease-in-out;
+    
+}
+#photos2 img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 
 #projects {
     width:92vw; /*this will change the width of the pictures*/
@@ -670,6 +691,7 @@ button:focus {
     grid-template-rows: repeat(5, 45vw); /*this has to do with if the body of the position gets cut off */
     grid-gap: 0px;
     background: rgb(255, 249, 251)
+    
 }
 .gallery h2{
     font-size:20px;
@@ -754,6 +776,7 @@ button:focus {
     #photos {
     columns:1;
     column-gap:0%;
+
     }
     #photos img {
         margin:2% 0px;
@@ -762,13 +785,24 @@ button:focus {
         transform: scale(1);
         cursor: pointer;
     }
-
+    #photos2 {
+        columns:1;
+        column-gap:0%;
+    
+    }
+    #photos2 img {
+            margin:2% 0px;
+    }
+    #photos2 img:hover {
+            transform: scale(1);
+            cursor: pointer;
+    }
+    
     #rightImage {
         display:none;
     }
     #leftImage {
         display: none;
-        
     }
     #top_part {
         border:0px;
