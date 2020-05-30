@@ -468,7 +468,7 @@ header table { /* position of header options (left/right) */
 #photos img {
     width:50%;
     height:auto;
-    margin:0% 225px; /*changing px will move pic closer to words*/
+    margin:0% 150px; /*changing px will move pic closer to words*/
     transition:0.4s ease-in-out;
     
 }
@@ -487,7 +487,7 @@ header table { /* position of header options (left/right) */
 #photos2 img {
     width:50%;
     height:auto;
-    margin:0% 225px; /*changing px will move pic closer to words*/
+    margin:0% 0 px; /*changing px will move pic closer to words*/
     transition:0.4s ease-in-out;
     
 }
