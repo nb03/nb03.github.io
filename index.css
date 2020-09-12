@@ -383,6 +383,12 @@ header table { /* position of header options (left/right) */
     font:#fff;
     background:rgb(255, 44, 90);
 }
+
+.gallery__item--3{
+    padding: 20px 40px;
+
+}
+
 .gallery__item--4 {
     background:#fff;
     padding:8px 40px;
