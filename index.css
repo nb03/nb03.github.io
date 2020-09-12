@@ -374,7 +374,7 @@ header table { /* position of header options (left/right) */
     padding:5px 40px;
     width:35%;
     border-radius:80px;
-    margin:5vh 0px; /*making vh larger will make the text box shorter*/
+    margin:50vh 0px; /*making vh larger will make the text box shorter*/
     transition:0.4s ease-in-out;
 }
 .gallery__item--2:hover {
