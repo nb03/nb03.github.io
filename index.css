@@ -266,7 +266,7 @@ header table { /* position of header options (left/right) */
         padding:5px 40px;
         width:25%;
         border-radius:80px;
-        margin:5vh 0px; /*making vh larger will make the text box shorter*/ 
+        margin:5vh 30px; /*making vh larger will make the text box shorter*/ 
         transition:0.4s ease-in-out;
     }
     .item4:hover {
@@ -296,7 +296,7 @@ header table { /* position of header options (left/right) */
         padding:5px 40px;
         width:25%;
         border-radius:80px;
-        margin:5vh 0px; /*making vh larger will make the text box shorter*/ 
+        margin:5vh 30px; /*making vh larger will make the text box shorter*/ 
         transition:0.4s ease-in-out;
     }
     .item8:hover {
