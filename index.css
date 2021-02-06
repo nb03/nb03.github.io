@@ -341,7 +341,7 @@ header table { /* position of header options (left/right) */
     padding:8px 40px;
     width:35%;
     border-radius:80px;
-    margin:1vh 0px;
+    margin:20vh 0px;
     transition:0.4s ease-in-out;
 }
 .gallery__item--6:hover {
@@ -369,7 +369,7 @@ header table { /* position of header options (left/right) */
     padding:8px 40px;
     width:35%;
     border-radius:80px;
-    margin:15vh 0px;
+    margin:5vh 0px;
     transition:0.4s ease-in-out;
 }
 .gallery__item--10:hover {
