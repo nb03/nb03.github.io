@@ -305,12 +305,11 @@ header table { /* position of header options (left/right) */
         font:#fff;
         background:rgb(255, 44, 90);
     }
-    
 
 .gallery__item--2 {
     background:#fff;
    /* border:3px solid rgb(255, 44, 90);*/
-    padding:5px 40px;
+    padding:5px 45px;
     width:35%;
     border-radius:80px;
     margin:20vh 0px; /*making vh larger will make the text box shorter*/
